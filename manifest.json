@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Play on Tv",
+  "description": "This extension add a contextual item to play torrent on your TV",
+  "version": "0.1",
+  "permissions": [
+    "contextMenus",
+    "<all_urls>"
+  ],
+   "background": {
+    "persistent": false,
+    "scripts": ["index.js"]
+  }
+
+}
