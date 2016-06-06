@@ -1,7 +1,5 @@
 playontv-chrome
 =========
-
-Chrome extension to use
 This extension provide a "Play on TV" button in chrome browser contextual menu.
 
 To use with [playontv-server](https://github.com/mpipet/playontv-server)
