@@ -9,7 +9,7 @@ config:
 compile:
 	browserify src/index.js -o index.js -t babelify --presets [es2015]
 
-start: 
+build: 
 	$(MAKE) install 
 	$(MAKE) config 
 	$(MAKE) compile 

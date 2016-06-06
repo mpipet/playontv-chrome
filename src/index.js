@@ -56,8 +56,6 @@ class PlayOnTv {
       if (err) throw err;
     });
   }
-
-
 }
 
 const playOnTv = new PlayOnTv(config);
